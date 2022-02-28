@@ -1,0 +1,93 @@
+.header{
+    position: fixed;
+    top: 0;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 10px;
+    background: #fff;
+    border-bottom: 5px solid #e9ecef;
+    
+}
+
+.left{
+    cursor: pointer;
+    display: flex;
+    gap: 16px;
+    align-items: center;
+    color: #3b5998;
+   
+}
+
+.all-input{
+    
+    width: 100%;
+    display: flex;
+    align-items: center;
+    color: #868e96;
+    
+   
+}
+
+.icon{
+    position: absolute;
+    margin-left: 10px;
+}
+
+.left-input{
+    width: 300px;
+    border-radius: 20px;
+    border: none;
+    background-color: #e9ecef;
+    padding: 10px;
+    padding-left: 40px;
+    outline: none;
+}
+
+input::placeholder{
+    font-size: 15px;
+}
+
+/* center */
+
+.center{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 65px;
+    font-size: 40px;
+    transform: translateX(-15%);
+    color: #343a40;
+    
+}
+
+
+
+.active-icon{
+    cursor: pointer;
+    
+}
+
+.my-photo {
+    
+    cursor: pointer;
+    border-radius: 50%;
+    width: 50px;
+    height: 50px;
+}
+
+/* right */
+
+.right{
+    cursor: pointer;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background: #ced4da;
+    border-radius: 500px;
+    color: #343a40;
+    font-size: 40px;
+    padding: 5px;
+    margin-right: 10px;
+}

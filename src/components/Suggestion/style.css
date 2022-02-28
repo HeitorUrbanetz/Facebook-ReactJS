@@ -1,0 +1,52 @@
+.suggestions{
+    position: fixed;
+    right: 0;
+    width: 360px;
+    margin-top: 90px;
+    padding-left: 10px;
+    
+}
+
+.header-suggestions{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 10px;
+}
+
+.header-suggestions h3{
+    cursor: pointer;
+}
+
+.icons-suggestion{
+    font-size: 20px;
+    display: flex;
+    gap: 30px;
+}
+
+.icon-ss{
+    cursor: pointer;
+}
+
+.people{
+    margin-top: 40px;
+    margin-left: 10px;
+}
+
+.peoples{
+    display: flex;
+    align-items: center;
+    gap: 16px;
+    margin-bottom: 20px;
+}
+
+.peoples h3{
+    cursor: pointer;
+}
+
+.peoples img{
+    cursor: pointer;
+    border-radius: 50%;
+    width: 36px;
+    height: 36px;
+}

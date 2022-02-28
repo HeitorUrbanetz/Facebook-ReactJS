@@ -1,0 +1,85 @@
+.face-stories{
+    display: flex;
+    gap: 16px;
+    padding: 30px;
+    padding-top: 0;
+}
+
+.image-cont {
+    width: 180px;
+    height: 300px;
+    background-image: url('./me.jpg');
+    background-size: 170%;
+    background-position: -60px;
+    border-radius: 10px;
+    padding-top: 270px;
+    padding-left: 20px;
+    cursor: pointer;
+}
+.image-cont1 {
+    width: 180px;
+    height: 300px;
+    background-image: url('./tomrusso.jpg');
+    background-size: 170%;
+    background-position: -60px;
+    border-radius: 10px;
+    padding-top: 270px;
+    padding-left: 20px;
+    cursor: pointer;
+}
+.image-cont2 {
+    width: 180px;
+    height: 300px;
+    background-image: url('./ana.jpg');
+    background-size: 250%;
+    background-position: -60px;
+    border-radius: 10px;
+    padding-top: 270px;
+    padding-left: 20px;
+    cursor: pointer;
+}
+.image-cont3 {
+    width: 180px;
+    height: 300px;
+    background-image: url('./man.jpg');
+    background-size: 170%;
+    background-position: -60px;
+    border-radius: 10px;
+    padding-top: 270px;
+    padding-left: 20px;
+    cursor: pointer;
+}
+.image-cont4 {
+    width: 180px;
+    height: 300px;
+    background-image: url('./bird.jpg');
+    background-size: 250%;
+    background-position: -60px;
+    border-radius: 10px;
+    padding-top: 270px;
+    padding-left: 20px;
+    cursor: pointer;
+}
+
+.image-cont,.image-cont1,.image-cont2,.image-cont3,.image-cont4 span{
+    cursor: pointer;
+    color: rgb(255, 255, 255);
+    font-weight: bold;
+    font-size: 20px;
+    
+}
+
+
+.desc{
+    cursor: pointer;
+    font-weight: 600;
+    margin-left: 20px;
+    
+}
+
+.face-photo{
+    cursor: pointer;
+    border-radius: 10px;
+    width: 180px;
+    height: 300px;
+}

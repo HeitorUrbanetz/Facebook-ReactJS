@@ -1,0 +1,49 @@
+.feed-container{
+
+    margin-left: 500px;
+    margin-top: 76px;
+    width: 1010px;
+    height: 1500px;
+    background-color: #fdfdfd;
+    border-right: 1px solid #e9ecef;
+}
+
+.post{
+ 
+  border-radius: 10px;
+  margin-top: 30px;
+  margin-left: 160px;
+  background-color: #fff;
+  box-shadow: 8px 8px 10px 10px rgba(0, 0, 0, 0.068);
+  width: 680px;
+  
+}
+.top{
+    
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 20px;
+    padding-left: 30px;
+}
+
+.top-h1{
+    cursor: pointer;
+    font-size: 26px;
+    color:#444;
+}
+
+.top-h4{
+    cursor: pointer;
+    color: #0b7285;
+    padding-right: 30px;
+}
+
+.add-post-feed{
+    width: 680px;
+    border-radius: 10px;
+    margin-top: 16px ;
+    margin-left: 160px;
+    background-color: #fff;
+    box-shadow: 8px 8px 8px 5px rgba(0, 0, 0, 0.068);
+}
